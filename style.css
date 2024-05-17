@@ -7,10 +7,6 @@ body {
     background-color: #2e3336;
 }
 
-.navBar1 {
-    visibility: hidden;
-}
-
 .main_menu {
     text-align: center;
     padding: 25px 0px 25px 0px;
@@ -230,10 +226,6 @@ p {
         font-size: 2rem;
     }
 
-    .navBar1 {
-        visibility: visible;
-    }
-
     .hks_logo {
         margin-top: 15px; 
         margin-left: 20px; 
@@ -423,10 +415,6 @@ p {
 
     h3 {
         font-size: 2rem;
-    }
-
-    .navBar1 {
-        visibility: hidden;
     }
 
     .hks_logo {
