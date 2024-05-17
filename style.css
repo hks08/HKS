@@ -1,0 +1,400 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #2e3336;
+}
+
+.main_menu {
+    text-align: center;
+    padding: 25px 0px 25px 0px;
+}
+
+.main_link_logo {
+    margin-left: 25%;
+    width: 30px;
+    position: fixed;
+    z-index: 1;
+}
+
+.main_link_container {
+    font-family: Jaro, Arial;
+    position: fixed;
+}
+
+.main_link {
+    font-family: Jaro, Arial;
+    padding: 0px 0px 0px 50px;
+    color: white;
+    text-decoration: none;
+}
+
+.hks_logo {
+    margin-top: 20px; 
+    margin-left: 10px; 
+    margin-bottom: 10px;
+    width: 30px;
+}
+
+.the_hunter {
+    margin: 0;
+    font-size: 12rem;
+    padding: 13% 25% 20% 25%;
+    background-color: #2e3336;
+    font-family: Jaro, Arial;
+}
+
+.the_hunter_text {
+    margin: 0;
+    height: 110px;
+    color: white;
+}
+
+.the_hunter_hr {
+    margin-right: 100%; 
+    margin-top: 45px; 
+    width: 130px;
+}
+
+.main_about_me_content {
+    height: 1000px;
+    background-color: #262a2c;
+    padding: 80px 25% 3% 25%;
+    font-family: Jaro, Arial;
+}
+
+.about_me_content {
+    float: right;
+    width: 50%;
+    color: white;
+    margin-top: 50px;
+}
+
+.about_me_content_1 {
+    width: 40%;
+    float: left;
+}
+
+.about_me_content_2 {
+    width: 60%;
+    float: right;
+}
+
+.about_me_image {
+    float: left;
+    width: 50%;
+    color: white;
+    margin-top: 50px;
+}
+
+.hks_image {
+    width: 400px;
+    height: 500px;
+}
+
+.main_experiences_content {
+    height: 1000px;
+    color: white;
+    background-color: #2e3336;
+    padding: 80px 25% 3% 25%;
+    font-family: Jaro, Arial;
+}
+
+.experience_box {
+    height: 120px;
+}
+
+.experience_date_box {
+    float: left; 
+    width: 20%; 
+    text-align: right;
+}
+
+.experience_content_box {
+    float: right; 
+    width: 78%; 
+    border-left: 2px solid #09d0e2; 
+    padding-left: 20px;
+}
+
+.experience_position_box {
+    margin-top: -10px;
+    color: #09d0e2;
+}
+
+.main_skills_content {
+    height: 1000px;
+    color: white;
+    background-color: #262a2c;
+    padding: 80px 25% 3% 25%;
+    font-family: Jaro, Arial;
+}
+
+.skill_box {
+    height: 60px;
+}
+
+.skill_title_box {
+    float: left; 
+    width: 20%; 
+    text-align: right;
+}
+
+.skill_bar_box {
+    float: right; 
+    width: 57%; 
+    border-left: 2px solid #09d0e2; 
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 190px;
+}
+
+.skill_meter_0 {
+    float: left; 
+    color: #5d676d;
+}
+
+.skill_meter_100 {
+    float: right; 
+    color: #5d676d;
+}
+
+.skill_meter_main_bar {
+    width: 100%; 
+    height: 10px; 
+    background-color: #2e3336;
+    margin-bottom: 10px;
+}
+
+.skill_meter_moving_bar {
+    height: 10px; 
+    background-color: #09d0e2;
+}
+
+.main_contact_content {
+    height: 1000px;
+    color: white;
+    background-color: #2e3336;
+    padding: 80px 25% 3% 25%;
+    font-family: Jaro, Arial;
+}
+
+.contact_box {
+    height: 80px;
+}
+
+.contact_title_box {
+    margin-left: 30px;
+    width: 20%; 
+    text-align: left;
+}
+
+.contact_content_box {
+    width: 77%; 
+    border-left: 2px solid #09d0e2; 
+    padding-left: 37px;
+}
+
+.contact_description_box {
+    margin-left: 37px;
+    margin-top: -15px;
+    color: #09d0e2;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    text-align: justify;
+}
+
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .hks_logo {
+        margin-top: 15px; 
+        margin-left: 20px; 
+        margin-bottom: 15px;
+        width: 20px;
+    }
+
+    .the_hunter {
+        margin: 0;
+        font-size: 5rem;
+        padding: 50% 25% 20% 25%;
+        background-color: #2e3336;
+        font-family: Jaro, Arial;
+        height: 800px;
+    }
+    .the_hunter_text {
+        margin: 0;
+        height: 50px;
+        color: white;
+    }
+    .the_hunter_hr {
+        margin-right: 100%; 
+        margin-top: 20px; 
+        width: 58px;
+    }
+
+    .main_about_me_content {
+        height: 900px;
+        background-color: #262a2c;
+        padding: 60px 10% 3% 10%;
+        font-family: Jaro, Arial;
+    }
+
+    .about_me_content {
+        width: 100%;
+        color: white;
+        margin-top: 20px;
+    }
+    
+    .about_me_content_1 {
+        width: 50%;
+        float: left;
+    }
+    
+    .about_me_content_2 {
+        width: 50%;
+        float: right;
+    }
+
+    .about_me_image {
+        width: 100%;
+        color: white;
+        margin-top: 20px;
+    }
+    
+    .hks_image {
+        width: 150px;
+        height: 200px;
+    }
+
+    .main_experiences_content {
+        height: 900px;
+        color: white;
+        background-color: #2e3336;
+        padding: 60px 10% 3% 10%;
+        font-family: Jaro, Arial;
+    }
+
+    .experience_box {
+        height: 100px;
+        margin-bottom: 1px;
+    }
+    
+    .experience_date_box {
+        float: left; 
+        width: 20%; 
+        text-align: right;
+        font-size: 12px;
+    }
+    
+    .experience_content_box {
+        float: right; 
+        width: 75%; 
+        border-left: 2px solid #09d0e2; 
+        padding-left: 20px;
+    }
+    
+    .experience_position_box {
+        margin-top: -10px;
+        color: #09d0e2;
+    }
+    
+    .main_skills_content {
+        height: 900px;
+        color: white;
+        background-color: #262a2c;
+        padding: 60px 10% 3% 10%;
+        font-family: Jaro, Arial;
+    }
+
+    .skill_box {
+        height: 50px;
+    }
+
+    .skill_title_box {
+        float: left; 
+        width: 25%; 
+        text-align: right;
+        font-size: 12px;
+    }
+
+    .skill_bar_box {
+        float: right; 
+        width: 65%; 
+        border-left: 2px solid #09d0e2; 
+        padding-left: 20px;
+        padding-right: 70px;
+        margin-right: 10px;
+    }
+
+    .skill_meter_0 {
+        float: left; 
+        color: #5d676d;
+    }
+
+    .skill_meter_100 {
+        float: right; 
+        color: #5d676d;
+    }
+
+    .skill_meter_main_bar {
+        width: 100%; 
+        height: 5px; 
+        background-color: #2e3336;
+        margin-bottom: 10px;
+    }
+
+    .skill_meter_moving_bar {
+        height: 5px; 
+        background-color: #09d0e2;
+    }
+
+    .main_contact_content {
+        height: 900px;
+        color: white;
+        background-color: #2e3336;
+        padding: 60px 10% 3% 10%;
+        font-family: Jaro, Arial;
+    }
+    
+    .contact_box {
+        height: 80px;
+    }
+    
+    .contact_title_box {
+        margin-left: 22px;
+        width: 20%; 
+        text-align: left;
+    }
+    
+    .contact_content_box {
+        width: 77%; 
+        border-left: 2px solid #09d0e2; 
+        padding-left: 30px;
+    }
+    
+    .contact_description_box {
+        margin-left: 30px;
+        margin-top: -15px;
+        color: #09d0e2;
+    }
+
+}
