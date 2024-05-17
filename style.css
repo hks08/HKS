@@ -412,7 +412,7 @@ p {
 
 }
 
-@media (min-width: 600px) {
+@media (max-width: 1000px) and (min-width: 600px) {
     h1 {
         font-size: 3rem;
     }
